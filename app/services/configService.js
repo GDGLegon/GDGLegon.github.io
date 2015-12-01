@@ -2,21 +2,21 @@ angular.module('gdgXBoomerang')
 .factory('Config', function () {
     return {
         // TODO Modify these to configure your app
-        'name'          : 'GDG Space Coast',
-        'id'            : '103959793061819610212',
-        'googleApi'     : '<insert your API key here>',
-        'pwaId'         : '5915725140705884785', // Picasa Web Album id, must belong to Google+ id above
-        'domain'        : 'http://www.gdgspacecoast.org',
-        'twitter'       : 'gdgspacecoast',
-        'facebook'      : 'gdgspacecoast',
-        'meetup'        : 'gdgspacecoast',
+        'name'          : 'GDG Legon',
+        'id'            : '102608342475322325848',
+        'googleApi'     : 'AIzaSyDrpn7lPWz29Ww9jGZghwhl2aJatkMVIpY',
+        'pwaId'         : '', // Picasa Web Album id, must belong to Google+ id above
+        'domain'        : 'http://GDGLegon.github.io',
+        'twitter'       : '',
+        'facebook'      : '',
+        'meetup'        : '',
         // Change to 'EEEE, MMMM d, y - H:mm' for 24 hour time format.
-        'dateFormat'    : 'EEEE, MMMM d, y - h:mm a',
+        'dateFormat'    : 'EEEE, d MMMM, y - h:mm a',
         'cover' : {
-            title: 'Worldwide GDG Events',
-            subtitle: 'Directory of developer events organized by tags and displayed on a global map.',
+            title: 'Welcome to GDG Legon',
+            subtitle: 'A community of Google loving developers on the University of Ghana, Legon campus',
             button: {
-                text: 'Find local events',
+                text: 'Find local GDG events near you',
                 url: 'http://gdg.events/'
             }
         },
