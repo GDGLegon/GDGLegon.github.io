@@ -103,6 +103,6 @@ war/WEB-INF/classes
 war/WEB-INF/lib
 war/WEB-INF/appengine-generated
 
-#JavaScript tooling
+#JavaScript tooling 
 node_modules
-dist/
+#Add /dist and /bower_components later when gulp inject is resolved
